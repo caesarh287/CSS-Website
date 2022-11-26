@@ -58,6 +58,7 @@ li a:hover:not(.active) {
     background-color: #1f2937;
     width: 100%;
     margin: auto;
+    margin-bottom: 60px;
     padding: 10px 0px 10px 0px;
 }
 
@@ -87,6 +88,8 @@ li a:hover:not(.active) {
 
 .second-section{
     padding: 20px 0px 20px 0px;
+    margin: auto;
+    margin-bottom: 60px;
 }
 
 h2 {
@@ -161,6 +164,7 @@ button:hover {
     background-color: #E5E7EB;
     height: 400px;
     width: 100%;
+    margin-bottom: 60px;
 }
 
 .p3 {
@@ -173,7 +177,7 @@ button:hover {
 
 h3 {
     font-family: 'Poppins', sans-serif;
-    padding-left: 900px;
+    padding-left:1500px;
     font-size: 36px;
     font-style: italic;
 }
@@ -189,6 +193,7 @@ h3 {
     align-items: center;
     margin: auto;
     border-radius: 5px;
+    margin-bottom: 60px;
 }
 
 .p4 {
