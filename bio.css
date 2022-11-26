@@ -122,6 +122,10 @@ main {
     background-color: #1f2937;
 }
 
+.floating {
+    float: right;
+}
+
 footer {
     font-family: 'Poppins', sans-serif;
     height: 50px;

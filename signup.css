@@ -158,3 +158,6 @@ li a:hover:not(.active) {
     background-color: #1f2937;
 }
 
+.floating {
+    float: right;
+}

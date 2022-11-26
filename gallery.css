@@ -122,3 +122,7 @@ li a:hover:not(.active) {
 .active {
     background-color: #1f2937;
 }
+
+.floating{
+    float: right;
+}
