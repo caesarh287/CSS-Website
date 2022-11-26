@@ -1,0 +1,10 @@
+.test {
+    background-color: blueviolet;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+.image {
+    border: 100px;
+}

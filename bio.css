@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #1f2937;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    color: red;
+    font-weight: bold;
+    font-variant: small-caps;
+    padding: 5px;
+}
+
+body {
+    background-image: url(../images/51fa7e52365f8fb89c69531ab92959bb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 50px;
+    width: 100%;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-style: normal;
+    color: red;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+h3 {
+    color: red;
+    font-size: 20px;
+}
+
+/*nav configuration -  back to top*/
+
+ul {
+    font-family: 'Poppins', sans-serif;
+    list-style-type: circle;
+    color: red;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+ul a {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+
+a {
+    font-family: 'Poppins', sans-serif;
+    color: red;
+}
+
+/*red arrow icon back to top*/
+span a {
+    font-size: 100px;
+    margin-left: 50%;
+    text-decoration: none;
+}
+
+
+/*article section and information*/
+section {
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    padding: 20px;
+    color: #eee;
+    font-size: 1.2em;
+    border-radius: 20px;
+    border: 2px solid rgba(101, 98, 98, 0.5);
+    padding: 10px;
+    margin: auto 30px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+    margin-top: 40px;
+    max-width: 100%;
+}
+
+.ul-nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1f2937;
+    border: 1px solid white;
+}
+
+.li-nav {
+    float: left;
+}
+
+.li-nav a {
+    font-size: 24px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.li-nav a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #1f2937;
+}
+
+footer {
+    font-family: 'Poppins', sans-serif;
+    height: 50px;
+    background-color: #1f2937;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+}

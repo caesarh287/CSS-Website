@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #1f2937;
+}
+
+main {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* LOGO HEADER eminem*/
+
+span {
+    font-size: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 80px 0;
+    margin-bottom: 50px;
+}
+
+span img {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+}
+
+/*gallery header*/
+
+h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 3rem;
+    font-variant: small-caps;
+    font-family: sans-serif;
+}
+
+
+/* body and background image*/
+body {
+    background-image: url(../images/51fa7e52365f8fb89c69531ab92959bb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 50px;
+}
+
+p {
+    color: white;
+}
+
+/* gallery block and centering*/
+
+div {
+    box-shadow: 10px 10px 10px 2px black;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    border: 2px solid gray;
+    border-radius: 2%;
+    padding: 10px;
+    justify-content: center;
+    width: 100%;
+}
+
+/* gallery images sizing and hovring*/
+
+div img {
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    border-radius: 2%;
+}
+
+div img:hover {
+    transform: scale(2);
+    filter: none;
+}
+
+footer {
+    height: 50px;
+    background-color: #1f2937;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #1f2937;
+    border: 1px solid white;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    font-size: 24px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #1f2937;
+}
